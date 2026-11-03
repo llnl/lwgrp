@@ -1,0 +1,8 @@
+@INIT_PACKAGE@
+
+include(CMakeFindDependencyMacro)
+find_dependency(MPI COMPONENTS C REQUIRED)
+
+include(lwgrpTargets.cmake)
+
+check_required_components(lwgrp)
