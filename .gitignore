@@ -28,3 +28,6 @@ m4/
 # final products
 liblwgrp.pc
 liblwgrp.la
+
+# cmake build tree
+build/
